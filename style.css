@@ -1,0 +1,159 @@
+body {
+    /*background-color: LightGray;*/
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+div {
+    /*border: 1px solid Chocolate;*/
+}
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 15.5rem;
+    font-size: 100%;
+}
+html, body, div, h1, h2, h3, .top-navigation, .cases, .social{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+.top-navigation > .content {
+	height: 70px;
+	padding: 1rem 18.5rem;
+	vertical-align: baseline;
+}
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	margin-top:25px ;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+.intro {
+	background-image: url('images/background.jpg');
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	font-family: 'Roboto',	sans-serif;
+}
+.intro  .content {
+	text-align: center;
+	color: #fff;
+	padding: 15em;
+}
+.intro .content h1 {
+	font-weight: 100;
+	font-size: 3rem;
+	margin-bottom: .938rem;
+}
+.intro .content h3 {
+	font-weight: 100;
+	font-size: 1.75rem;
+	margin-bottom: .938rem;
+}
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 5px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: #FF530D;
+    color: #fff;
+    font-size: 1.125em;
+}
+.intro .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+.cases .content{
+	padding: 7rem;
+	text-align: center;
+}
+ .cases .devices {
+ 	padding-top: 5rem;
+ 	display: inline-block;
+ 	width: 20%;
+    /* styles to assist with debugging */
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    height: 4em;
+}
+.cases .content h2 {
+	font-size: 2.875rem;
+	font-weight: 100;
+}
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+.social h3 {
+	font-weight: 400;
+	  color: #838994;
+}
